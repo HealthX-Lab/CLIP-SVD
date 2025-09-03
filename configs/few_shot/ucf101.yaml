@@ -1,0 +1,15 @@
+backbone: 'ViT-B/16' # ViT-B/16, ViT-B/32, RN50, ViT-L/14
+lr: 0.0005
+train_epochs: 20
+batch_size: 32
+weight_decay: 0.01
+include_train_layers: "all" # "all","top","bottom","middle", "top_bottom", "top_middle", "bottom_middle"
+train_image_encoder: True
+train_text_encoder: True
+train_mlp: True
+train_q: True
+train_k: True
+train_v: True
+train_o_proj: True
+model: "CLIP"
+template: 'a photo of a person doing {}.'

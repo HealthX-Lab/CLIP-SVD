@@ -1,0 +1,15 @@
+backbone: 'ViT-B/16' # ViT-B/16
+lr: 0.01
+train_epochs: 200
+batch_size: 32
+weight_decay: 0
+include_train_layers: "top_middle" # "all","top","bottom","middle", "top_bottom", "top_middle", "bottom_middle"
+train_image_encoder: True
+train_text_encoder: True
+train_mlp: True
+train_q: True
+train_k: True
+train_v: True
+train_o_proj: True
+model: "BiomedCLIP"
+template: 'a photo of a {}.'
