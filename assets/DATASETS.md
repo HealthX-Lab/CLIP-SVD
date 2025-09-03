@@ -229,7 +229,7 @@ imagenet-rendition/
 |–– imagenet-r/ # contains 200 folders whose names have the format of n*
 |–– classnames.txt
 ```
-
+---
 # Biomedical Domain Datasets
 
 Our study includes 11 biomedical image classification datasets. Place all the datasets in one directory under `data` to ease management. The file structure looks like

@@ -25,34 +25,78 @@
 4) **Semantic Interpretation for Biomedical Applications**: To address the need for interpretability of attention heads in CLIP for biomedical use cases (e.g., CLIP-SVD analysis), we build the first corpus of biomedical image descriptions.  
 
 ## Results
-Results reported below show accuracy for few-shot scenarios as well as base and novel classes across 11 biomedical recognition datasets averaged over 3 seeds.
-### Few-shot Evaluation
-| **Method**             | $K=1$ | $K=2$ | $K=4$ | $K=8$ | $K=16$ |
-|-------------------------|:-------:|:-------:|:-------:|:-------:|:-------:|
-| [CLIP-Adapter](https://arxiv.org/abs/2110.04544)           |  44.66  |  43.91  |  44.36  |  45.42  |  46.69  |
-| [Tip-Adapter](https://arxiv.org/abs/2111.03930)            |  49.19  |  52.36  |  57.33  |  61.98  |  67.15  |
-| [Tip-Adapter-F](https://arxiv.org/abs/2111.03930)          |  51.17  |  52.74  |  61.23  |  65.91  |  70.91  |
-| [Standard LP](https://arxiv.org/abs/2103.00020)           |  47.25  |  54.21  |  61.00  |  65.85  |  69.40  |
-| [LP++](https://arxiv.org/abs/2404.02285)                   |  47.24  |  53.18  |  59.02  |  63.69  |  68.35  |
-| [CoOp](https://arxiv.org/abs/2109.01134)                  |  50.16  |  54.18  |  59.75  |  65.84  |  69.62  |
-| [CoCoOp](https://arxiv.org/abs/2203.05557)                |  48.49  |  51.28  |  54.69  |  61.08  |  65.09  |
-| [KgCoOp](https://arxiv.org/abs/2303.13283)                |  50.85  |  53.18  |  57.82  |  62.08  |  62.84  |
-| [ProGrad](https://arxiv.org/abs/2205.14865)               |  51.88  |  54.71  |  60.42  |  65.61  |  67.13  |
-| [**BiomedCoOp**](https://arxiv.org/abs/2411.15232)  | **57.03** | **59.13** | **63.95** | **68.32** | **72.42** |
-### Base-to-Novel Generalization
-| Name                                                      | Base Acc. | Novel Acc. |    HM     |  
-|-----------------------------------------------------------|:---------:|:----------:|:---------:|  
-| [BiomedCLIP](https://arxiv.org/abs/2303.00915)            |   47.84   |   65.42    |   53.81   |  
-| [CoOp](https://arxiv.org/abs/2109.01134)                  |   73.85   |   64.75    |   67.23   |  
-| [CoCoOp](https://arxiv.org/abs/2203.05557)                |   72.26   |   67.03    |   67.22   |  
-| [KgCoOp](https://arxiv.org/abs/2303.13283)                |   68.36   |   64.08    |   64.61   |  
-| [ProGrad](https://arxiv.org/abs/2205.14865)               |   71.67   |   66.93    |   67.43   |  
-| [**BiomedCoOp (ours)**](https://arxiv.org/abs/2411.15232) |   **76.26**   | **73.92**  | **75.07** |  
+Results reported below show accuracy for few-shot scenarios as well as base and novel classes across 11 natural domain and 10 biomedical domain recognition datasets averaged over 3 seeds.
+### Natural Few-shot Evaluation
+| **Method**       | K=1   | K=2   | K=4   | K=8   | K=16  |
+|------------------|:-----:|:-----:|:-----:|:-----:|:-----:|
+| Zero-shot CLIP   |   –   |   –   | 65.36 |   –   |   –   |
+| CoOp             | 68.09 | 70.13 | 73.59 | 76.45 | 79.01 |
+| CoCoOp           | 66.95 | 67.63 | 71.98 | 72.92 | 75.02 |
+| ProGrad          | 68.20 | 71.78 | 74.21 | 77.93 | 79.20 |
+| KgCoOp           | 69.51 | 71.57 | 74.48 | 75.82 | 77.26 |
+| MaPLe            | 69.27 | 72.58 | 75.37 | 78.89 | 81.79 |
+| Linear Probing   | 45.77 | 56.92 | 66.79 | 73.43 | 78.39 |
+| LP++             | 70.35 | 72.93 | 75.77 | 77.94 | 80.32 |
+| CLIP-Adapter     | 67.87 | 70.20 | 72.65 | 76.92 | 79.86 |
+| Tip-Adapter      | 68.89 | 70.42 | 72.69 | 74.41 | 76.44 |
+| Tip-Adapter-F    | 70.62 | 73.08 | 75.75 | 78.51 | 81.15 |
+| GDA              | 69.39 | 73.09 | 76.24 | 79.71 | 81.70 |
+| ProKeR           | 71.32 | 73.74 | 76.23 | 79.84 | 82.01 |
+| AdaLoRA          | 69.04 | 72.21 | 75.50 | 78.13 | 80.95 |
+| TCP              | 70.63 | 73.59 | 76.07 | 78.39 | 80.98 |
+| CLIP-LoRA        | _72.20_ | _75.41_ | _77.32_ | _80.10_ | _82.89_ |
+| **CLIP-SVD (Ours)** | **73.20** | **76.06** | **78.18** | **80.55** | **82.97** |
 
-## Model Checkpoints and Logs
-| Name                                                      | Few-Shot | Base-to-Novel |  
-|-----------------------------------------------------------|:---------:|:----------:| 
-| [**BiomedCoOp**](https://github.com/HealthX-Lab/BiomedCoOp/blob/main/trainers/BiomedCoOp/biomedcoop_biomedclip.py) |  [link](https://huggingface.co/TahaKoleilat/BiomedCoOp/tree/main/few_shot)  | [link](https://huggingface.co/TahaKoleilat/BiomedCoOp/tree/main/base2new) |
+### Biomedical Few-shot Evaluation
+| **Method**       | K=1   | K=2   | K=4   | K=8   | K=16  |
+|------------------|:-----:|:-----:|:-----:|:-----:|:-----:|
+| Zero-shot BiomedCLIP | 42.38 |   –   |   –   |   –   |   –   |
+| CoOp             | 52.59 | 55.71 | 61.35 | 67.74 | 71.48 |
+| CoCoOp           | 50.88 | 53.91 | 57.63 | 63.15 | 67.51 |
+| ProGrad          | 53.67 | 56.42 | 62.10 | 67.06 | 69.21 |
+| KgCoOp           | 54.31 | 55.79 | 60.92 | 66.00 | 67.71 |
+| Linear Probing   | 48.91 | 55.82 | 62.12 | 67.33 | 70.81 |
+| LP++             | 49.27 | 55.88 | 61.30 | 65.48 | 70.09 |
+| CLIP-Adapter     | 45.53 | 44.70 | 45.30 | 46.54 | 48.46 |
+| Tip-Adapter      | 50.35 | 53.50 | 58.33 | 62.01 | 67.60 |
+| Tip-Adapter-F    | 52.55 | 54.17 | 62.30 | 68.12 | 68.12 |
+| MaPLe            | 37.99 | 40.89 | 44.09 | 47.37 | 52.93 |
+| BiomedCoOp   | **56.87** | _59.32_ | _64.34_ | _68.96_ | _73.41_ |
+| **CLIP-SVD (Ours)** | _56.35_ | **62.63** | **68.02** | **73.26** | **76.46** |
+
+### Base-to-Novel Generalization (Natural Domain)  
+| Name | Base Acc. | Novel Acc. | HM |  
+|--------------------------------------------|:---------:|:----------:|:---------:|  
+| CLIP | 69.34 | 74.22 | 71.70 |  
+| CoOp | 82.69 | 63.22 | 71.66 |  
+| CoCoOp | 80.47 | 71.69 | 75.83 |  
+| KgCoOp | 80.73 | 73.60 | 77.00 |  
+| ProGrad | 82.48 | 70.75 | 76.16 |  
+| MaPLe | 82.28 | 75.14 | 78.55 |  
+| IVLP | 84.21 | 71.79 | 77.51 |  
+| GDA | 83.96 | 74.53 | 78.72 |  
+| TCP | 84.13 | 75.36 | 79.51 |  
+| CLIP-LoRA | 84.10 | 74.80 | 79.18 |  
+| **CLIP-SVD (ours)** | **84.38** | **76.29** | **80.13** |   
+
+### Base-to-Novel Generalization (Biomedical Domain)  
+| Name | Base Acc. | Novel Acc. | HM |  
+|------------------------------------------------|:---------:|:----------:|:---------:|  
+| BiomedCLIP | 49.27 | 67.17 | 55.23 |  
+| CoOp | 76.71 | 65.34 | 68.80 |  
+| CoCoOp | 75.52 | 67.74 | 69.11 |  
+| KgCoOp | 71.90 | 65.94 | 67.22 |  
+| ProGrad | 75.69 | 67.33 | 69.86 |  
+| MaPLe | 65.40 | 49.51 | 53.10 |  
+| XCoOp | 74.62 | 63.19 | 68.43 |  
+| BiomedCoOp | 78.60 | 73.90 | 74.04 |  
+| GDA | 57.70 | 64.66 | 60.98 |  
+| DCPL | 73.70 | 69.35 | 71.46 |  
+| CLIP-LoRA | 70.56 | 59.84 | 64.76 |  
+| **CLIP-SVD (ours)** | **82.64** | **74.31** | **78.25** |  
+
+---
+
 
 ## Installation 
 For installation and other package requirements, please follow the instructions detailed in [INSTALL.md](assets/INSTALL.md). 

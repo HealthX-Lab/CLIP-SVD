@@ -20,14 +20,13 @@ Below, we provide instructions to train CLIP-SVD on any dataset.
 bash scripts/fewshot.sh <dataset> <nb of shots> <output directory>
 
 # Example on BTMRI using 16 shots
-bash scripts/fewShot.sh data btmri 16 outputs_fewshot
+bash scripts/fewshot.sh data btmri 16 outputs_fewshot
 ```
 
 You can reproduce the few-shot results by running the following:
 
 ```bash
 
-# Example on BTMRI using 16 shots
 bash scripts/fewshot_reproduce.sh
 ```
 
@@ -56,7 +55,6 @@ You can reproduce the base-to-novel results by running the following:
 
 ```bash
 
-# Example on BTMRI using 16 shots
 bash scripts/base2new_reproduce.sh
 ```
 
@@ -69,7 +67,7 @@ python read_base2new_results.py --dataset_type biomedical --output_name biomedic
 python read_base2new_results.py --dataset_type natural --output_name natural_base2new_results.csv --output_dir outputs_base2new
 ```
 
-# Interpreting the singular values
+# Interpreting the Singular Values
 
 You can run the following scripts to see interpret the adapted CLIP and BiomedCLIP models:
 
