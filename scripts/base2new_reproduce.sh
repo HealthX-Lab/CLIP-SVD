@@ -4,14 +4,14 @@ for DATASET in eurosat fgvc_aircraft stanford_cars sun397 ucf101 oxford_flowers 
 do
 python main.py --root_path data --dataset ${DATASET} --tasks 3 \
                 --shots ${SHOTS} --subsample base \
-                --output_dir outputs_base2new_natural_reproduce \
-                --save_path outputs_base2new_natural_reproduce \
+                --output_dir outputs_base2new \
+                --save_path outputs_base2new \
                 --config configs/base2new/${DATASET}.yaml
 
 python main.py --root_path data --dataset ${DATASET} --tasks 3 \
                 --shots ${SHOTS} --subsample new \
-                --output_dir outputs_base2new_natural_reproduce \
-                --save_path outputs_base2new_natural_reproduce/${DATASET} \
+                --output_dir outputs_base2new \
+                --save_path outputs_base2new/${DATASET} \
                 --config configs/base2new/${DATASET}.yaml \
                 --eval_only                       
 done
@@ -20,14 +20,14 @@ for DATASET in btmri covid ctkidney kvasir kneexray retina octmnist chmnist lung
 do
 python main.py --root_path data --dataset ${DATASET} --tasks 3 \
                 --shots ${SHOTS} --subsample base \
-                --output_dir outputs_base2new_biomedical_reproduce \
-                --save_path outputs_base2new_biomedical_reproduce \
+                --output_dir outputs_base2new \
+                --save_path outputs_base2new \
                 --config configs/base2new/${DATASET}.yaml 
 
 python main.py --root_path data --dataset ${DATASET} --tasks 3 \
                 --shots ${SHOTS} --subsample new \
-                --output_dir outputs_base2new_biomedical_reproduce \
-                --save_path outputs_base2new_biomedical_reproduce \
+                --output_dir outputs_base2new \
+                --save_path outputs_base2new \
                 --config configs/base2new/${DATASET}.yaml \
                 --eval_only   
 done

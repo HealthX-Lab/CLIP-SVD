@@ -54,7 +54,7 @@ def evaluate_model(args, clip_model, logit_scale, loader, dataset, mc_samples=3)
 
 def run_training(args, clip_model, logit_scale, dataset, train_loader, val_loader, test_loader):
     
-    # VALIDATION = False
+    VALIDATION = False
     # Textual features
     print("\nGetting textual features as CLIP's classifier.")
     if(args.model == "CLIP"):
@@ -129,8 +129,6 @@ def run_training(args, clip_model, logit_scale, dataset, train_loader, val_loade
     scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer,
                                                            total_iters,
                                                            eta_min=1e-6)
-
-    train_start_time = time.time()
 
     count_iters = 0
     finish = False
@@ -228,8 +226,6 @@ def run_biomedical_training(args, clip_model, logit_scale, dataset, train_loader
     scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer,
                                                            total_epochs,
                                                            eta_min=1e-6)
-
-    train_start_time = time.time()
 
     for train_idx in range(total_epochs):
         clip_model.train()
@@ -330,8 +326,6 @@ def run_other_training(args, clip_model, logit_scale, dataset, train_loader, val
     scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer,
                                                            total_epochs,
                                                            eta_min=1e-6)
-
-    train_start_time = time.time()
 
 
     for train_idx in range(total_epochs):

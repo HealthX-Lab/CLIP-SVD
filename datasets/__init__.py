@@ -23,7 +23,6 @@ from .kvasir import Kvasir
 from .lungcolon import LungColon
 from .retina import RETINA
 from .covid import COVID_19
-from .dermamnist import DermaMNIST
 from .octmnist import OCTMNIST
 
 
@@ -52,7 +51,6 @@ dataset_list = {
                 "lungcolon": LungColon,
                 "retina": RETINA,
                 "covid": COVID_19,
-                "dermamnist": DermaMNIST,
                 "octmnist": OCTMNIST 
                 }
 

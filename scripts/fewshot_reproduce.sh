@@ -3,7 +3,7 @@ do
 for SHOTS in 1 2 4 8 16
 do
 python main.py --root_path data --dataset ${DATASET} --tasks 3 --shots ${SHOTS} \
-                --output_dir outputs_fewshot_natural_reproduce --config configs/few_shot/${DATASET}.yaml 
+                --output_dir outputs_fewshot --config configs/few_shot/${DATASET}.yaml 
 done
 done
 
@@ -12,6 +12,6 @@ do
 for SHOTS in 1 2 4 8 16
 do
 python main.py --root_path data --dataset ${DATASET} --tasks 3 --shots ${SHOTS} \
-                --output_dir outputs_fewshot_biomedical_reproduce --config configs/few_shot/${DATASET}.yaml 
+                --output_dir outputs_fewshot --config configs/few_shot/${DATASET}.yaml 
 done
 done
