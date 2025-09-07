@@ -112,6 +112,13 @@ Please refer to the [RUN.md](assets/RUN.md) for detailed instructions on trainin
 ## Citation
 If you use our work, please consider citing:
 ```bibtex
+@article{koleilat2025singular,
+  title={Singular Value Few-shot Adaptation of Vision-Language Models},
+  author={Koleilat, Taha and Rivaz, Hassan and Xiao, Yiming},
+  journal={arXiv preprint arXiv:2509.03740},
+  year={2025}
+}
+
 @inproceedings{koleilat2025biomedcoop,
   title={Biomedcoop: Learning to prompt for biomedical vision-language models},
   author={Koleilat, Taha and Asgariandehkordi, Hojat and Rivaz, Hassan and Xiao, Yiming},
