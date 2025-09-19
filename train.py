@@ -196,6 +196,7 @@ def run_training(args, clip_model, logit_scale, dataset, train_loader, val_loade
 
 def run_biomedical_training(args, clip_model, logit_scale, dataset, train_loader, val_loader, test_loader):
     
+    VALIDATION = False
 
     clip_model = clip_model.float().cuda()
 
