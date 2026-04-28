@@ -1,4 +1,4 @@
-# Singular Value Few-shot Adaptation of Vision-Language Models
+# CLIP-SVD: Efficient and Interpretable Vision–Language Adaptation via Singular Values
 **[Health-X Lab](http://www.healthx-lab.ca/)** | **[IMPACT Lab](https://users.encs.concordia.ca/~impact/)** 
 
 [Taha Koleilat](https://tahakoleilat.github.io/), [Hassan Rivaz](https://users.encs.concordia.ca/~hrivaz/), [Yiming Xiao](https://yimingxiao.weebly.com/curriculum-vitae.html)
@@ -11,7 +11,7 @@
 ## Overview
 
 ![main figure](assets/overview.png)
-> **<p align="justify"> Abstract:** *Vision-language models (VLMs) like CLIP have shown impressive zero-shot and few-shot learning capabilities across diverse applications. However, adapting these models to new fine-grained domains remains difficult due to reliance on prompt engineering and the high cost of full model fine-tuning. Existing adaptation approaches rely on augmented components, such as prompt tokens and adapter modules, which could limit adaptation quality, destabilize the model, and compromise the rich knowledge learned during pretraining. In this work, we present **CLIP-SVD**, a novel *multi-modal* and *parameter-efficient* adaptation technique that leverages Singular Value Decomposition (SVD) to modify the internal parameter space of CLIP without injecting additional modules. Specifically, we fine-tune only the singular values of the CLIP parameter matrices to rescale the basis vectors for domain adaptation while retaining the pretrained model. This design enables enhanced adaptation performance using only **0.04%** of the model's total parameters and better preservation of its generalization ability. CLIP-SVD achieves state-of-the-art classification results on 11 natural and 10 biomedical datasets, outperforming previous methods in both accuracy and generalization under few-shot settings. Additionally, we leverage a natural language-based approach to analyze the effectiveness and dynamics of the CLIP adaptation to allow interpretability of **CLIP-SVD**.* </p>
+> **<p align="justify"> Abstract:** *Vision-language models (VLMs) like CLIP have shown impressive zero-shot and few-shot learning capabilities across diverse applications. However, adapting these models to new fine-grained domains remains difficult due to reliance on prompt engineering and the high cost of full model fine-tuning. Existing adaptation approaches rely on augmented components, such as prompt tokens and adapter modules, which could limit adaptation quality, destabilize the model, and compromise the rich knowledge learned during pretraining. In this work, we present **CLIP-SVD**, a *multi-modal* and *parameter-efficient* adaptation framework that applies Singular Value Fine-tuning (SVF) to CLIP, leveraging Singular Value Decomposition (SVD) to modify the internal parameter space of CLIP without injecting additional modules. Specifically, we fine-tune only the singular values of the CLIP parameter matrices to rescale the basis vectors for domain adaptation while retaining the pretrained model. This design enables enhanced adaptation performance using only **0.04%** of the model's total parameters and better preservation of its generalization ability. CLIP-SVD achieves state-of-the-art classification results on 11 natural and 10 biomedical datasets, outperforming previous methods in both accuracy and generalization under few-shot settings. Additionally, we leverage a natural language-based approach to analyze the effectiveness and dynamics of the CLIP adaptation to allow interpretability of **CLIP-SVD**. Overall, this work provides the first extensive empirical evaluation of SVD-based finetuning in the vision-language model setting.* </p>
 
 ## Method
 
@@ -112,11 +112,13 @@ Please refer to the [RUN.md](assets/RUN.md) for detailed instructions on trainin
 ## Citation
 If you use our work, please consider citing:
 ```bibtex
-@article{koleilat2025singular,
-  title={Singular Value Few-shot Adaptation of Vision-Language Models},
-  author={Koleilat, Taha and Rivaz, Hassan and Xiao, Yiming},
-  journal={arXiv preprint arXiv:2509.03740},
-  year={2025}
+@article{koleilat2026clipsvd,
+title={{CLIP}-{SVD}: Efficient and Interpretable Vision{\textendash}Language Adaptation via Singular Values},
+author={Taha Koleilat and Hassan Rivaz and Yiming Xiao},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2026},
+url={https://openreview.net/forum?id=XYy8pwqwMR}
 }
 
 @inproceedings{koleilat2025biomedcoop,
