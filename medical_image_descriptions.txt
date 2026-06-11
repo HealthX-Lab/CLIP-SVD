@@ -1,300 +1,302 @@
-A well-defined border
-An irregular border
-A spiculated margin
-A homogeneous texture
-A heterogeneous texture
-A high-contrast lesion
-A low-contrast region
-A hyperdense area
-A hypodense area
-A hyperintense signal
-A hypointense signal
-A ring-enhancing lesion
-A ground-glass opacity
-A focal area of calcification
-A radiolucent area
-A radiopaque region
-A nodular structure
-A lobulated mass
-A well-circumscribed lesion
-A central necrosis
-A peri-lesional edema
-A mass effect
-A midline shift
-A diffuse abnormality
-A localized abnormality
-A vascular structure
-A cystic lesion
-An area with increased uptake
-An area with decreased perfusion
-An asymmetrical finding
-An anatomical displacement
-A cluster of microcalcifications
-A linear artifact
-A circular opacity
-A triangular-shaped defect
-A lesion with internal septations
-A solid-cystic component
-A poorly demarcated margin
-A disruption of normal anatomy
-A contrast-enhanced region
-A region of tissue thickening
-A dilation of a vessel
-A stenotic segment
-A collapsed lung lobe
-A fluid-fluid level
-A high signal-to-noise ratio
-A low signal-to-noise ratio
-A bright spot artifact
-A motion artifact
-A zone of tissue infiltration
-A deviation from expected symmetry
-A loss of normal architecture
-A sclerotic change
-A lytic lesion
-A change in signal intensity
-A deviation from anatomical landmarks
-A smooth contour
-An irregular contour
-A halo sign
-A double-density sign
-A crescent-shaped fluid collection
-A serpiginous lesion
-A honeycomb pattern
-A reticular pattern
-A mosaic attenuation
-A bullseye appearance
-A target sign
-A cobblestone appearance
-A tram-track sign
-A tree-in-bud pattern
-A snowstorm appearance
-A sunburst pattern
-A star-shaped opacity
-A geographic area of involvement
-A miliary pattern
-A peripheral distribution
-A central distribution
-A patchy consolidation
-A uniform opacity
-A subpleural nodule
-An air bronchogram
-A silhouette sign
-A blurring of tissue interfaces
-A pseudocapsule formation
-A radiating striation
-A finger-in-glove sign
-A cavitary lesion
-A lesion with fluid level
-A lesion with air-fluid level
-A concentric ring pattern
-A layered appearance
-A hemangioma-like enhancement
-A fat-density lesion
-A lesion with calcified rim
-A lesion crossing compartments
-A septated fluid collection
-A peripherally enhancing collection
-A region with cortical thinning
-A bone lesion with periosteal reaction
-A disruption of growth plate
-A widened mediastinum
-A displaced fat pad
-A halo around a nodule
-A reverse halo sign
-A bronchial wall thickening
-A vascular displacement
-A displacement of adjacent organs
-A lesion with irregular internal architecture
-A hypoechoic region
-A hyperechoic region
-An isoechoic structure
-A shadowing artifact
-A posterior acoustic enhancement
-A comet-tail artifact
-A reverberation artifact
-A ring-down artifact
-A clean fluid interface
-A blurry margin
-A shifting fluid level
-A deviation of tracheal position
-A tenting of the diaphragm
-A flattening of the diaphragm
-A thickened bowel wall
-A targetoid lesion
-A donut sign
-A striated muscle texture
-A streak artifact
-A beam-hardening artifact
-A ring-enhancing lesion in a clustered pattern
-An area with increased uptake with sharp borders
-A disruption of growth plate suggesting benignity
-A circular opacity without enhancement
-A deviation from expected symmetry in a scattered distribution
-A low signal-to-noise ratio consistent with inflammation
-A honeycomb pattern on axial view
-A lesion with calcified rim with sharp borders
-A serpiginous lesion in the upper lobe
-A pseudocapsule formation consistent with inflammation
-A concentric ring pattern with sharp borders
-A focal area of calcification in the left hemisphere
-A hemangioma-like enhancement in a scattered distribution
-A ground-glass opacity in a clustered pattern
-A linear artifact with surrounding edema
-A disruption of growth plate consistent with infection
-A collapsed lung lobe in a scattered distribution
-A change in signal intensity with surrounding edema
-A radiolucent area in the upper lobe
-A lesion with fluid level with surrounding edema
-A diffuse abnormality in the left hemisphere
-A mosaic attenuation with sharp borders
-A cavitary lesion in a scattered distribution
-A central necrosis with sharp borders
-A hypodense area without enhancement
-A low signal-to-noise ratio in the upper lobe
-A snowstorm appearance on axial view
-A zone of tissue infiltration in the upper lobe
-A zone of tissue infiltration without enhancement
-A deviation from expected symmetry in the left hemisphere
-A poorly demarcated margin with surrounding edema
-A lesion with air-fluid level in a clustered pattern
-A hypointense signal without enhancement
-A layered appearance suggesting benignity
-A fat-density lesion in a scattered distribution
-A lytic lesion on axial view
-A deviation from anatomical landmarks in the upper lobe
-A tree-in-bud pattern without enhancement
-A ring-enhancing lesion consistent with inflammation
-A crescent-shaped fluid collection in a scattered distribution
-A central necrosis in a scattered distribution
-A bullseye appearance with surrounding edema
-A triangular-shaped defect consistent with inflammation
-A target sign suggesting malignancy
-A hemangioma-like enhancement in a clustered pattern
-A region with cortical thinning without enhancement
-A uniform opacity in a scattered distribution
-A finger-in-glove sign without enhancement
-A fluid-fluid level suggesting benignity
-A peri-lesional edema on axial view
-A low-contrast region in the left hemisphere
-A lesion with fluid level in a clustered pattern
-A snowstorm appearance consistent with inflammation
-A pseudocapsule formation on axial view
-A deviation from anatomical landmarks suggesting benignity
-A peripherally enhancing collection suggesting malignancy
-A well-defined border suggesting benignity
-A peripherally enhancing collection consistent with infection
-A bright spot artifact with surrounding edema
-A solid-cystic component in the left hemisphere
-A target sign in a scattered distribution
-A honeycomb pattern suggesting malignancy
-A radiopaque region with sharp borders
-A heterogeneous texture on axial view
-A motion artifact suggesting benignity
-A diffuse abnormality in the upper lobe
-An irregular border with sharp borders
-A radiating striation in the upper lobe
-A localized abnormality in the left hemisphere
-A peripherally enhancing collection with sharp borders
-A central distribution consistent with inflammation
-A loss of normal architecture suggesting benignity
-A nodular structure on axial view
-A hyperintense signal on axial view
-A lesion with fluid level suggesting benignity
-A high-contrast lesion in the left hemisphere
-A midline shift in a clustered pattern
-A bright spot artifact in a clustered pattern
-A ground-glass opacity consistent with infection
-A finger-in-glove sign in the left hemisphere
-A change in signal intensity with sharp borders
-A tram-track sign in the left hemisphere
-A low-contrast region suggesting malignancy
-A star-shaped opacity without enhancement
-A homogeneous texture consistent with inflammation
-A lesion with internal septations without enhancement
-An air bronchogram suggesting benignity
-A fluid-fluid level with surrounding edema
-A stenotic segment in the upper lobe
-A target sign consistent with inflammation
-A serpiginous lesion in the left hemisphere
-A finger-in-glove sign suggesting malignancy
-A cavitary lesion without enhancement
-A contrast-enhanced region on axial view
-A bone lesion with periosteal reaction suggesting benignity
-A hyperintense signal in the left hemisphere
-A zone of tissue infiltration with surrounding edema
-A solid-cystic component consistent with inflammation
-An area with increased uptake in a scattered distribution
-A zone of tissue infiltration in a clustered pattern
-An area with decreased perfusion suggesting benignity
-A double-density sign suggesting benignity
-A lytic lesion consistent with inflammation
-A midline shift with sharp borders
-A geographic area of involvement in the upper lobe
-An irregular border with surrounding edema
-A solid-cystic component suggesting malignancy
-A collapsed lung lobe suggesting benignity
-A high signal-to-noise ratio with sharp borders
-A finger-in-glove sign in a scattered distribution
-A homogeneous texture suggesting malignancy
-A sunburst pattern suggesting benignity
-A change in signal intensity suggesting malignancy
-A tree-in-bud pattern suggesting benignity
-A tram-track sign in a clustered pattern
-A localized abnormality without enhancement
-A uniform opacity without enhancement
-A well-circumscribed lesion in a scattered distribution
-A deviation from anatomical landmarks consistent with inflammation
-A smooth contour with surrounding edema
-A vascular structure with sharp borders
-A hyperintense signal suggesting benignity
-A homogeneous texture in a scattered distribution
-A star-shaped opacity in the upper lobe
-A silhouette sign consistent with inflammation
-A region with cortical thinning with surrounding edema
-An anatomical displacement without enhancement
-A hyperdense area suggesting benignity
-An anatomical displacement in the left hemisphere
-A star-shaped opacity consistent with infection
-A crescent-shaped fluid collection in the left hemisphere
-A nodular structure consistent with inflammation
-A cystic lesion suggesting benignity
-A geographic area of involvement on axial view
-A deviation from expected symmetry suggesting malignancy
-A high signal-to-noise ratio consistent with infection
-An area with decreased perfusion in the left hemisphere
-A finger-in-glove sign with surrounding edema
-A silhouette sign without enhancement
-A triangular-shaped defect suggesting benignity
-A well-circumscribed lesion on axial view
-A region with cortical thinning consistent with infection
-A silhouette sign in a scattered distribution
-A lesion with air-fluid level with surrounding edema
-A crescent-shaped fluid collection on axial view
-A focal area of calcification suggesting benignity
-A collapsed lung lobe without enhancement
-A focal area of calcification in a clustered pattern
-An air bronchogram suggesting malignancy
-A septated fluid collection with surrounding edema
-An area with decreased perfusion with surrounding edema
-A disruption of growth plate in the left hemisphere
-A finger-in-glove sign consistent with inflammation
-A mosaic attenuation in the left hemisphere
-A low-contrast region in a clustered pattern
-A lesion with fluid level in the upper lobe
-A radiating striation in a scattered distribution
-A hypodense area in a clustered pattern
-A circular opacity with surrounding edema
-A lesion with fluid level consistent with infection
-A lesion crossing compartments in the left hemisphere
-A sclerotic change without enhancement
-A radiopaque region consistent with inflammation
-A fluid-fluid level suggesting malignancy
-An air bronchogram on axial view
-A bone lesion with periosteal reaction on axial view
-A low signal-to-noise ratio suggesting malignancy
-A cluster of microcalcifications suggesting malignancy
-A tram-track sign on axial view
-A crescent-shaped fluid collection without enhancement
-An area with decreased perfusion consistent with infection
-A bone lesion with periosteal reaction with sharp borders
+Shape=1, Texture=2, Contrast=3, Movement=4, Location=5, Object/Tissue type=6, Condition=7
+
+A well-defined border:1
+An irregular border:1
+A spiculated margin:1
+A homogeneous texture:2
+A heterogeneous texture:2
+A high-contrast lesion:3
+A low-contrast region:3
+A hyperdense area:3
+A hypodense area:3
+A hyperintense signal:3
+A hypointense signal:3
+A ring-enhancing lesion:3,6
+A ground-glass opacity:2
+A focal area of calcification:5,6
+A radiolucent area:3
+A radiopaque region:3
+A nodular structure:1
+A lobulated mass:1
+A well-circumscribed lesion:1,6
+A central necrosis:5,6
+A peri-lesional edema:5,6
+A mass effect:4,
+A midline shift:4,
+A diffuse abnormality:5,6
+A localized abnormality:5,6
+A vascular structure:1,6
+A cystic lesion:3,6
+An area with increased uptake:4,
+An area with decreased perfusion:4,
+An asymmetrical finding:5,
+An anatomical displacement:4
+A cluster of microcalcifications:1,6
+A linear artifact:1,6
+A circular opacity:1,6
+A triangular-shaped defect:1,6
+A lesion with internal septations:6,5
+A solid-cystic component:6,
+A poorly demarcated margin:1
+A disruption of normal anatomy:4
+A contrast-enhanced region:3
+A region of tissue thickening:4
+A dilation of a vessel:4,6
+A stenotic segment:1,6
+A collapsed lung lobe:4,6
+A fluid-fluid level:4
+A high signal-to-noise ratio:2,3
+A low signal-to-noise ratio:2,3
+A bright spot artifact:1,3
+A motion artifact:2
+A zone of tissue infiltration:4,5
+A deviation from expected symmetry:4
+A loss of normal architecture:1
+A sclerotic change:3,6
+A lytic lesion:3,6
+A change in signal intensity:3
+A deviation from anatomical landmarks:5
+A smooth contour:1
+An irregular contour:1
+A halo sign:1
+A double-density sign:1,4
+A crescent-shaped fluid collection:1,6
+A serpiginous lesion:1,6
+A honeycomb pattern:2
+A reticular pattern:2
+A mosaic attenuation:2
+A bullseye appearance:1
+A target sign:1
+A cobblestone appearance:2
+A tram-track sign:1
+A tree-in-bud pattern:2
+A snowstorm appearance:2
+A sunburst pattern:2
+A star-shaped opacity:1,6
+A geographic area of involvement:1
+A miliary pattern:2
+A peripheral distribution:5
+A central distribution:5
+A patchy consolidation:2
+A uniform opacity:2,6
+A subpleural nodule:5,6
+An air bronchogram:2,6
+A silhouette sign:1
+A blurring of tissue interfaces:1,3
+A pseudocapsule formation:1,6
+A radiating striation:1
+A finger-in-glove sign:4
+A cavitary lesion:5,6
+A lesion with fluid level:3,6
+A lesion with air-fluid level:3,6
+A concentric ring pattern:1,2
+A layered appearance:1,2
+A hemangioma-like enhancement:3,5
+A fat-density lesion:6
+A lesion with calcified rim:3,6
+A lesion crossing compartments:5,6
+A septated fluid collection:1,6
+A peripherally enhancing collection:3,5
+A region with cortical thinning:4,6
+A bone lesion with periosteal reaction:4,6
+A disruption of growth plate:4,6
+A widened mediastinum:4,6
+A displaced fat pad:4,6
+A halo around a nodule:2,6
+A reverse halo sign:1,2
+A bronchial wall thickening:4,6
+A vascular displacement:4,6
+A displacement of adjacent organs:4,5
+A lesion with irregular internal architecture:1,6
+A hypoechoic region:3
+A hyperechoic region:3
+An isoechoic structure:3
+A shadowing artifact:3,6
+A posterior acoustic enhancement:3,6
+A comet-tail artifact:2,6
+A reverberation artifact:2,6
+A ring-down artifact:2,6
+A clean fluid interface:1,6
+A blurry margin:1
+A shifting fluid level:4,6
+A deviation of tracheal position:4,6
+A tenting of the diaphragm:4,6
+A flattening of the diaphragm:4,6
+A thickened bowel wall:1,4
+A targetoid lesion:1,6
+A donut sign:1
+A striated muscle texture:2,6
+A streak artifact:2,6
+A beam-hardening artifact:6
+A ring-enhancing lesion in a clustered pattern:2,6
+An area with increased uptake with sharp borders:1,4
+A disruption of growth plate suggesting benignity:1,6,7
+A circular opacity without enhancement:1,3
+A deviation from expected symmetry in a scattered distribution:1,5
+A low signal-to-noise ratio consistent with inflammation:2,7
+A honeycomb pattern on axial view:2,5
+A lesion with calcified rim with sharp borders:1,6
+A serpiginous lesion in the upper lobe:5,6
+A pseudocapsule formation consistent with inflammation:1,7
+A concentric ring pattern with sharp borders:1,2
+A focal area of calcification in the left hemisphere:5,6
+A hemangioma-like enhancement in a scattered distribution:1,3
+A ground-glass opacity in a clustered pattern:1,3
+A linear artifact with surrounding edema:1,6
+A disruption of growth plate consistent with infection:1,6
+A focal lobar collapse affecting one lung lobe:1,4,6
+A change in signal intensity with surrounding edema:4,6
+A radiolucent area in the upper lobe:3,5
+A lesion with fluid level with surrounding edema:6
+A diffuse abnormality in the left hemisphere:5,6
+A mosaic attenuation with sharp borders:1,2
+A cavitary lesion in a scattered distribution:1,6
+A central necrosis with sharp borders:1,5,6
+A hypodense area without enhancement:3
+A low signal-to-noise ratio in the upper lobe:2,5
+A snowstorm appearance on axial view:2,5
+A zone of tissue infiltration in the upper lobe:4,5
+A zone of tissue infiltration without enhancement:3,4
+A deviation from expected symmetry in the left hemisphere:5
+A poorly demarcated margin with surrounding edema:1,6
+A lesion with air-fluid level in a clustered pattern:1,6
+A hypointense signal without enhancement:3
+A layered appearance suggesting benignity:1,7
+A fat-density lesion in a scattered distribution:1,6
+A lytic lesion on axial view:5,6
+A deviation from anatomical landmarks in the upper lobe:5
+A tree-in-bud pattern without enhancement:2,3
+A ring-enhancing lesion consistent with inflammation:1,3,6,7
+A crescent-shaped fluid collection in a scattered distribution:1,6
+A central necrosis in a scattered distribution:1,6
+A bullseye appearance with surrounding edema:1,6
+A triangular-shaped defect consistent with inflammation:1,6,7
+A target sign suggesting malignancy:1,7
+A hemangioma-like enhancement in a clustered pattern:1,3
+A region with cortical thinning without enhancement:1,4
+A uniform opacity in a scattered distribution:1,6
+A finger-in-glove sign without enhancement:3,4
+A fluid-fluid level suggesting benignity:6,7
+A peri-lesional edema on axial view:5,6
+A low-contrast region in the left hemisphere:3,5
+A lesion with fluid level in a clustered pattern:1,6
+A snowstorm appearance consistent with inflammation:2,7
+A pseudocapsule formation on axial view:5,6
+A deviation from anatomical landmarks suggesting benignity:5,7
+A peripherally enhancing collection suggesting malignancy:3,5,7
+A well-defined border suggesting benignity:1,7
+A peripherally enhancing collection consistent with infection:3,5,6
+A bright spot artifact with surrounding edema:1,3,6
+A solid-cystic component in the left hemisphere:5,6
+A target sign in a scattered distribution:1
+A honeycomb pattern suggesting malignancy:2,7
+A radiopaque region with sharp borders:1,3
+A heterogeneous texture on axial view:2,5
+A motion artifact obscuring part of the anatomy:2,7
+A diffuse abnormality in the upper lobe:5,6
+An irregular border with sharp borders:3
+A radiating striation in the upper lobe:1,5
+A localized abnormality in the left hemisphere:5,6
+A peripherally enhancing collection with sharp borders:1,3,5
+A central distribution consistent with inflammation:5,7
+A loss of normal architecture suggesting benignity:4,7
+A nodular structure on axial view:1,5
+A hyperintense signal on axial view:3,5
+A lesion with fluid level suggesting benignity:6,7
+A high-contrast lesion in the left hemisphere:3,6,5
+A midline shift in a clustered pattern:1,4
+A bright spot artifact in a clustered pattern:1,3
+A ground-glass opacity consistent with infection:3,6
+A finger-in-glove sign in the left hemisphere:4,5
+A change in signal intensity with sharp borders:1,4
+A tram-track sign in the left hemisphere:1,5
+A low-contrast region suggesting malignancy:3,7
+A star-shaped opacity without enhancement:1,3
+A homogeneous texture consistent with inflammation:2,7
+A lesion with internal septations without enhancement:1,3,6
+An air bronchogram suggesting benignity:2,7
+A fluid-fluid level with surrounding edema:6
+A stenotic segment in the upper lobe:4,5
+A target sign consistent with inflammation:1,7
+A serpiginous lesion in the left hemisphere:5,6
+A finger-in-glove sign suggesting malignancy:4,7
+A cavitary lesion without enhancement:3,6
+A contrast-enhanced region on axial view:3,6
+A bone lesion with periosteal reaction suggesting benignity:4,6,7
+A hyperintense signal in the left hemisphere:3,5
+A zone of tissue infiltration with surrounding edema:4,6
+A solid-cystic component consistent with inflammation:6,7
+An area with increased uptake in a scattered distribution:1,4
+A zone of tissue infiltration in a clustered pattern:1,4
+An area with decreased perfusion suggesting benignity:4,7
+A double-density sign suggesting benignity:1,7
+A lytic lesion consistent with inflammation:6,7
+A midline shift with sharp borders:1,4
+A geographic area of involvement in the upper lobe:1,5
+An irregular border with surrounding edema:1,4
+A solid-cystic component suggesting malignancy:6,7
+A collapsed lung lobe suggesting benignity:4,6,7
+A high signal-to-noise ratio with sharp borders:1,2
+A finger-in-glove sign in a scattered distribution:1,4
+A homogeneous texture suggesting malignancy:2,7
+A sunburst pattern suggesting benignity:1,7
+A change in signal intensity suggesting malignancy:4,7
+A tree-in-bud pattern suggesting benignity:1,7
+A tram-track sign in a clustered pattern:1,2
+A localized abnormality without enhancement:1,3
+A uniform opacity without enhancement:2,3
+A well-circumscribed lesion in a scattered distribution:1,6
+A deviation from anatomical landmarks consistent with inflammation:5,7
+A smooth contour with surrounding edema:1,6
+A vascular structure with sharp borders:1
+A hyperintense signal suggesting benignity:3,7
+A homogeneous texture in a scattered distribution:1
+A star-shaped opacity in the upper lobe:1,5
+A silhouette sign consistent with inflammation:1,7
+A region with cortical thinning with surrounding edema:4,6
+An anatomical displacement without enhancement:3,4
+A hyperdense area suggesting benignity:3,7
+An anatomical displacement in the left hemisphere:4,5
+A star-shaped opacity consistent with infection:1,3,6
+A crescent-shaped fluid collection in the left hemisphere:1,6,5
+A nodular structure consistent with inflammation:6,7
+A cystic lesion suggesting benignity:6,7
+A geographic area of involvement on axial view:1,5
+A deviation from expected symmetry suggesting malignancy:5,7
+A high signal-to-noise ratio consistent with infection:2,6
+An area with decreased perfusion in the left hemisphere:4,5
+A finger-in-glove sign with surrounding edema:4,5
+A silhouette sign without enhancement:1,3
+A triangular-shaped defect suggesting benignity:1,6,7
+A well-circumscribed lesion on axial view:1,5,6
+A region with cortical thinning consistent with infection:4,6
+A silhouette sign in a scattered distribution:1
+A lesion with air-fluid level with surrounding edema:6
+A crescent-shaped fluid collection on axial view:1,6,5
+A focal area of calcification suggesting benignity:5,6,7
+A collapsed lung lobe without enhancement:3,4
+A focal area of calcification in a clustered pattern:1,5,6
+An air bronchogram suggesting malignancy:2,7
+A septated fluid collection with surrounding edema:1,6
+An area with decreased perfusion with surrounding edema:4,6
+A disruption of growth plate in the left hemisphere:4,5
+A finger-in-glove sign consistent with inflammation:4,7
+A mosaic attenuation in the left hemisphere:2,5
+A low-contrast region in a clustered pattern:1,3
+A lesion with fluid level in the upper lobe:5,6
+A radiating striation in a scattered distribution:1
+A hypodense area in a clustered pattern:1,3
+A circular opacity with surrounding edema:1,6
+A lesion with fluid level consistent with infection:1,6
+A lesion crossing compartments in the left hemisphere:5,6
+A sclerotic change without enhancement:3,6
+A radiopaque region consistent with inflammation:2,7
+A fluid-fluid level suggesting malignancy:6,7
+An air bronchogram on axial view:2,5
+A bone lesion with periosteal reaction on axial view:4,5,6
+A low signal-to-noise ratio suggesting malignancy:2,7
+A cluster of microcalcifications suggesting malignancy:1,6,7
+A tram-track sign on axial view:1,5
+A crescent-shaped fluid collection without enhancement:1,3,6
+An area with decreased perfusion consistent with infection:4,6
+A bone lesion with periosteal reaction with sharp borders:1,4,6
